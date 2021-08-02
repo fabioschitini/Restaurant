@@ -1,0 +1,13 @@
+body{
+    background-color:#8e2f2f;
+    font-size: 30px;
+}
+#content{
+    position: relative;
+    left: 30%;
+    bottom: 40%;
+}
+button{
+    position: relative;
+    left: 10%;
+}

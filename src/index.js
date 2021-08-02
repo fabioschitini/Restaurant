@@ -4,7 +4,7 @@ import menuTab from "./menuTab"
 import contactTab from "./contactTab"
 
 const  switchTabs=()=>{
-    
+    let buttonsContainer=document.createElement("div")
     let menuButton=document.createElement("button")
     let contactsButton=document.createElement("button")
     let homePageButton=document.createElement("button")
@@ -16,9 +16,11 @@ const  switchTabs=()=>{
                      homePageButton.textContent="Homepage"
                      menuButton.textContent="Menu"
                     contactsButton.textContent="Contacts"
-                    Dom.content.appendChild(homePageButton)
-                    Dom.content.appendChild(menuButton)
-                    Dom.content.appendChild(contactsButton)
+                    buttonsContainer.id="btnContainer"
+                    Dom.content.appendChild(buttonsContainer)
+                    buttonsContainer.appendChild(homePageButton)
+                    buttonsContainer.appendChild(menuButton)
+                    buttonsContainer.appendChild(contactsButton)
                                 }
 
     const createTabs=()=>{ 
@@ -60,3 +62,4 @@ const switchTab=switchTabs()
         Dom.domInsert()
         switchTab.createTabs()
         
+//devtool: 'inline-source-map',

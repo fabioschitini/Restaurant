@@ -12,8 +12,8 @@ let img=document.createElement("IMG");
         para.textContent="Our Restaraunt is well knwo for it's relaxing and conforting ambient, with an incredible varietis of foods on the catalogue";
         high.textContent="A Nice and quiet Restaraunt";
         content.appendChild(mainDiv);
-        mainDiv.appendChild(img);
         mainDiv.appendChild(high);
+        mainDiv.appendChild(img);
         mainDiv.appendChild(para);
         content.value="home"
                         }
