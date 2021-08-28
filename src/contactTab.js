@@ -1,5 +1,6 @@
 import Dom from "./DOM"
 function contactTabs(){
+    console.log('yep')
     let mainDiv=document.createElement("div")
     let contactHigh=document.createElement("h1")
     let contactPara=document.createElement("p")
