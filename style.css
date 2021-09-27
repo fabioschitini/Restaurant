@@ -1,13 +1,43 @@
-body{
-    background-color:#8e2f2f;
-    font-size: 30px;
+body {
+  background-color: #8e2f2f;
+  font-size: 30px;
+  width: 1000px;
 }
-#content{
-    position: relative;
-    left: 30%;
-    bottom: 40%;
+#content {
+  position: relative;
+  left: 30%;
+  bottom: 40%;
 }
-button{
-    position: relative;
-    left: 10%;
+button {
+  position: relative;
+  left: 10%;
+}
+
+#introduction {
+  width: 900px;
+}
+#btnContainer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: -300px;
+}
+
+button {
+  background-color: #8e2f2f;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: orangered;
+}
+p {
+  color: bisque;
+}
+h1 {
+  color: bisque;
+}
+img {
+  height: 500px;
+  width: 500px;
 }
