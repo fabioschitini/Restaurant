@@ -4,14 +4,20 @@ function contactTabs(){
     let mainDiv=document.createElement("div")
     let contactHigh=document.createElement("h1")
     let contactPara=document.createElement("p")
+    let contactPara1=document.createElement("p")
+    let contactPara2=document.createElement("p")
 
     const createTab=()=>{    mainDiv.id="mainContact"
-    contactHigh.textContent="This is the contacts"
-        contactPara.textContent="Put information here"
+    contactHigh.textContent="Contact Information"
+        contactPara1.textContent = "Email:fabioschitini1@hotmail.com"
+        contactPara2.textContent = "Phone:(55)XXXXX-XXXX"
+        
              Dom.content.appendChild(mainDiv)
              mainDiv.appendChild(contactHigh)
-             mainDiv.appendChild(contactPara)
-             console.log(Dom.content.value)
+        mainDiv.appendChild(contactPara)
+        mainDiv.appendChild(contactPara1)
+        mainDiv.appendChild(contactPara2)
+      
              Dom.content.value="contact"
  
                        }

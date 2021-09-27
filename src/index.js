@@ -15,7 +15,8 @@ const  switchTabs=()=>{
     const createButtons=()=>{
                      homePageButton.textContent="Homepage"
                      menuButton.textContent="Menu"
-                    contactsButton.textContent="Contacts"
+        contactsButton.textContent = "Contacts"
+        
                     buttonsContainer.id="btnContainer"
                     Dom.content.appendChild(buttonsContainer)
                     buttonsContainer.appendChild(homePageButton)
