@@ -20,14 +20,20 @@ button {
   display: flex;
   justify-content: space-around;
   position: relative;
-  left: -300px;
+  left: -350px;
+  background-color: black;
+  top: -7px;
+  height: 30px;
+  width: 1625px;
 }
 
 button {
-  background-color: #8e2f2f;
   border: none;
   cursor: pointer;
+  background-color: black;
+  color: white;
 }
+
 button:hover {
   color: orangered;
 }
@@ -39,5 +45,10 @@ h1 {
 }
 img {
   height: 500px;
-  width: 500px;
+}
+#homeImage {
+  height: 500px;
+  width: auto;
+}
+#mainHome {
 }
