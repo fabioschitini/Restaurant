@@ -1,13 +1,12 @@
 # Restaurant
 
 
-Designed and created a desktop-only game Tic Tac Toe. 
-The purpose of the project was to use the Module pattern and the Factory Pattern to build and design objects to incorporate game logic.
+A based around creating a simple restaurant website which uses js to dynamicaly render the site's content.
 
 From The Odin Project's curriculum:
 https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page
 
-link Live preview:https://fabioschitini.github.io/Tac-Toe/
+link Live preview:https://fabioschitini.github.io/Restaurant/
 
 
 # Built with
@@ -18,6 +17,7 @@ link Live preview:https://fabioschitini.github.io/Tac-Toe/
 * CSS
 * JS
 
+
 ## Tools
 
 * Visual Studio Code
@@ -26,16 +26,19 @@ link Live preview:https://fabioschitini.github.io/Tac-Toe/
 * ESLint + Airbnb JavaScript Style Guide
 * Node Libraries
 * WebPack
+* es modules
 
 # Outcome
 * Used Git and GitHub for project management.
 * Tried to maintain clean code.
+* Learned to utelise npm,es modules and webpack
+* JS Dom manipulation
 
 # Summary
 
 ## What I learned
 
-* Use of  the Module pattern and the Factory Pattern to build and design objects to incorporate game logic.
+* Use of  npm, es modules, webpack, and how to better manipulate js Dom
 
 
 ## Author
