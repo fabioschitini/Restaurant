@@ -10,7 +10,7 @@ let img=document.createElement("IMG");
         mainDiv.id="mainHome"
       img.src = 'Re.jpg';
       img.id='homeImage'
-        para.textContent="Our Restaraunt is well know for it's relaxing  ambient, with an incredible varieties of foods on the catalogue";
+        para.textContent="Ours Restaraunt is well know for it's relaxing  ambient, with an incredible varieties of foods on the catalogue";
         para.id='introduction'
            high.textContent = "A Nice and quiet Restaraunt";
         content.appendChild(mainDiv);
